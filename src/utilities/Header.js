@@ -40,7 +40,7 @@ const Header = () => {
           </ul>
         </div>
 
-        <div className="hidden lg:block">{isLoggedIn ? <Button onClick={handleLogout} name="Logout" /> : <Button link="/login" name="Login" />}</div>
+        <div className="hidden lg:block lg:px-4">{isLoggedIn ? <Button onClick={handleLogout} name="Logout" /> : <Button link="/login" name="Login" />}</div>
       </div>
     </>
   );
